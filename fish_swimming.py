@@ -65,7 +65,7 @@ player.showturtle()
 def move_right():
 	if player.xcor() < MAX_X:
 		x,y = player.pos()
-		player.goto(x+5,y)
+		player.goto(x+5,y+5)
 
 turtle.onkeypress(move_right,"Right")
 
